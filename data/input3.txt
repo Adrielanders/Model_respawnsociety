@@ -1,0 +1,19 @@
+<guys, untuk pembuatan autocomplete kita kumpulin di: app\Http\Controllers\Utilities\AutoCompleteController ( blm di push ). yahh biar bisa nyontek dan kalau sudah pernah dibikin, tinggal dipakai saja>
+<Oce ko>
+<untuk route juga ya routes\autocomplete.php buat yg baru mau didevelop aja ya. kl sudah terlanjur bikin, ya ngga ush pindah. dr pada dibongkar malah error>
+<klo ada waktu utk testing boleh ko fajar>
+<ok>
+<mau mastiin sudah sesuai kah>
+<sewaktu input BPB ( BPB dari supplier ) atau BPBSJ ( BPB Antar Gudang ) di gudang akhir yg sudah menjalankan Inventory, item item yg diterima sebelum di simpan di cek terlebih dahulu apakah sudah ada Konversi nya atau belom. Apabila seluruh item sudah ada Konversinya data dapat disimpan. Apaila ada item yg belum ada konversinya maka munculkan item item yg belum ada konversinya tersebut. Program mengarahkan untuk menginput item Konversi. berikut adalah form input item konversi versi vb6.>
+<sesudah seluruh item diinputkan konversinya, BPB baru bisa disimpan datanya.>
+<data item konversi disimpan di database : InventoryManagement table : SA_CompItemKonv>
+<rencana akhir tahun, ktnya makan2 dan ada jalan2nya. kl makan2 ada rekomendasi hotel bintang buy 1 get 1 boleh rekomendasiin ya gais>
+<Riltz calton ko>
+<yes, udh msh list gw>
+<untuk jalan2, klvpunya rekomendasi mulai dr transport dan penginapan. blh dikeep dl, lihat nanti budgetnya dpt berapa>
+<siapa tau bisa diajukan>
+<Ocee ko, hunting2 dlu akwkwka>
+<Oke nanti nyari akwkw>
+<Bos ada dimsum beda lagi nih bos, ini campur ada isian daging babi bos Harga Rp 20.000/pack Isi 3 bos Beli di teluk gong bantu temen aja Minimal 5 order Makasih image omitted>
+<kalau ditanya divisi lain, bilang aja, kita nabung. *bukan ditanggung kantor*>
+<Oke ko amann>
