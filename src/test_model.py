@@ -142,8 +142,9 @@ model.eval()
 # -------------------------
 # input prompt
 # -------------------------
-prompt = input("Masukkan prompt: ")
-
+user_input = input("Masukkan prompt: ")
+prompt = f"User: {user_input}\nAssistant:"
+ 
 if len(prompt.strip()) == 0:
     context = torch.zeros((1, 1), dtype=torch.long, device=device)
 else:

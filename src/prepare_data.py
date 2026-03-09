@@ -1,8 +1,11 @@
 from pathlib import Path
 import torch
 
-# baca teks
-text = Path("data/input.txt").read_text(encoding="utf-8")
+files = sorted(Path("data").glob("*.txt"))
+text = ""
+
+for f in files:
+    text += f.read_text(encoding="utf-8") + "\n"
 
 chars = sorted(list(set(text)))
 stoi = {ch: i for i, ch in enumerate(chars)}
@@ -14,9 +17,9 @@ def encode(s):
 def decode(tokens):
     return "".join([itos[i] for i in tokens])
 
-# encode seluruh teks
 data = torch.tensor(encode(text), dtype=torch.long)
 
+print("Jumlah file:", len(files))
 print("Shape data:", data.shape)
-print("10 token pertama:", data[:10].tolist())
-print("Hasil decode lagi:", decode(data[:50].tolist()))
+print("Vocab size:", len(chars))
+print("100 char pertama:", decode(data[:100].tolist()))

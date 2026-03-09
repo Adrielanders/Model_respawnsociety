@@ -1,7 +1,14 @@
 from pathlib import Path
 import torch
 
-text = Path("data/input.txt").read_text(encoding="utf-8")
+files = sorted(Path("data").glob("*.txt"))
+
+if not files:
+    raise FileNotFoundError("Tidak ada file .txt di folder data")
+
+text = ""
+for file_path in files:
+    text += file_path.read_text(encoding="utf-8") + "\n"
 
 chars = sorted(list(set(text)))
 stoi = {ch: i for i, ch in enumerate(chars)}
@@ -20,7 +27,10 @@ block_size = 8
 x = data[:block_size]
 y = data[1:block_size + 1]
 
-print("Input token:", x.tolist())
+print("Jumlah file:", len(files))
+print("File yang dibaca:", [f.name for f in files])
+
+print("\nInput token:", x.tolist())
 print("Target token:", y.tolist())
 
 print("\nInput text :", repr(decode(x.tolist())))

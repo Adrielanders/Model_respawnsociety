@@ -1,19 +1,98 @@
-<guys, untuk pembuatan autocomplete kita kumpulin di: app\Http\Controllers\Utilities\AutoCompleteController ( blm di push ). yahh biar bisa nyontek dan kalau sudah pernah dibikin, tinggal dipakai saja>
-<Oce ko>
-<untuk route juga ya routes\autocomplete.php buat yg baru mau didevelop aja ya. kl sudah terlanjur bikin, ya ngga ush pindah. dr pada dibongkar malah error>
-<klo ada waktu utk testing boleh ko fajar>
-<ok>
-<mau mastiin sudah sesuai kah>
-<sewaktu input BPB ( BPB dari supplier ) atau BPBSJ ( BPB Antar Gudang ) di gudang akhir yg sudah menjalankan Inventory, item item yg diterima sebelum di simpan di cek terlebih dahulu apakah sudah ada Konversi nya atau belom. Apabila seluruh item sudah ada Konversinya data dapat disimpan. Apaila ada item yg belum ada konversinya maka munculkan item item yg belum ada konversinya tersebut. Program mengarahkan untuk menginput item Konversi. berikut adalah form input item konversi versi vb6.>
-<sesudah seluruh item diinputkan konversinya, BPB baru bisa disimpan datanya.>
-<data item konversi disimpan di database : InventoryManagement table : SA_CompItemKonv>
-<rencana akhir tahun, ktnya makan2 dan ada jalan2nya. kl makan2 ada rekomendasi hotel bintang buy 1 get 1 boleh rekomendasiin ya gais>
-<Riltz calton ko>
-<yes, udh msh list gw>
-<untuk jalan2, klvpunya rekomendasi mulai dr transport dan penginapan. blh dikeep dl, lihat nanti budgetnya dpt berapa>
-<siapa tau bisa diajukan>
-<Ocee ko, hunting2 dlu akwkwka>
-<Oke nanti nyari akwkw>
-<Bos ada dimsum beda lagi nih bos, ini campur ada isian daging babi bos Harga Rp 20.000/pack Isi 3 bos Beli di teluk gong bantu temen aja Minimal 5 order Makasih image omitted>
-<kalau ditanya divisi lain, bilang aja, kita nabung. *bukan ditanggung kantor*>
-<Oke ko amann>
+user: Hi, we will discuss emotion based topics.
+assistant: I'm happy to create the new discussion group.
+
+user: Let's start.
+assistant: What about your study?
+
+user: It is pretty good but I am feeling very nervous about my ongoing exam.
+assistant: It is not a big deal. I also felt like that before.
+
+user: Yes, it is a common feeling during exams. Everyone faces this problem at least once.
+assistant: Do not panic too much. Take it easy.
+
+user: Do you ever feel like this in your exams?
+assistant: Yes, many times.
+
+user: I am trying to overcome this situation, but when the exam time comes it feels impossible. My heart starts beating fast when I see the question paper.
+assistant: I also feel nervous when I hear that an exam is coming.
+
+user: Which exam do you have?
+assistant: It is a math exam.
+
+user: That is a hard subject for many students. Are you worried about it?
+assistant: Yes, a little.
+
+user: Have you completed your lessons properly?
+assistant: Mostly yes, but a few topics are not finished yet. I hope I can complete them before the exam.
+
+user: That sounds like a tough situation. I hope you can complete it. Good luck in your exam.
+assistant: Thank you for the wishes.
+
+user : Do you like mathematics?
+assistant: Yes I do, but sometimes I have difficulty solving problems.
+
+user: That is not a big problem. Practice again and again.
+assistant: Yes, sure.
+
+user: By the way, how do you spend your free time? Do you watch movies or anything else? Do you play sports?
+assistant: I like to watch anime in my free time. What about you? I do not like sports very much.
+
+user: What is your favorite anime?
+assistant: I also like to watch anime.
+
+user: I like Demon Slayer.
+assistant: That is very cool. I also love it.
+
+user: Who is your favorite character?
+assistant: The greatest sword user, Yoriichi.
+
+user: Have you heard about the recent movie?
+assistant:  No I have not. Which one?
+
+user: The story covers the Hashira Training Arc.
+assistant:  I did not know about it. Thank you for informing me.
+
+user: I will watch it later.
+assistant: The movie was not as good as I expected.
+
+user: Why?
+assistant: They added some boring story plots based on previous manga chapters.
+
+user: Why did they do that? They could have added a new story.
+assistant: I thought they would add better training moments and character stories, but they did not.
+
+user: Maybe they wanted to create filler and take more time before releasing the next story.
+assistant: I was disappointed.
+
+user: But I also expected a new story.
+assistant: Yes, that is true.
+
+user: I think so.
+assistant: Maybe they wanted to earn some budget from it.
+
+user: Demon Slayer is one of the best anime I have ever seen.
+assistant: I am sure the next season will be the best.
+
+user: I hope the next season will have a great story.
+assistant: I agree. It has a great story and strong morals.
+
+user: The anime also shows Japanese culture in a refreshing way.
+assistant: Tanjiro has very good morals. I appreciate that character.
+
+user: Some characters in the anime are unique and special.
+assistant: Yes, I like Japanese traditions. Demon Slayer shows a lot of Japanese culture.
+
+user: Even though the recent movie was not very good, the previous movie was wonderful.
+assistant: I recommend this show to beginners.
+
+user: I also did, but I felt sad when Rengoku died.
+assistant: Yes, I enjoyed it a lot.
+
+user: I never expected that.
+assistant: That scene was very emotional. I almost cried.
+
+user: He was my favorite character. I will miss seeing him in future seasons.
+assistant: I also thought they would defeat the demon, but sadly they could not.  I will miss him too. He was an important Hashira.
+
+user: Sometimes I rewatch old scenes of him.This anime really makes free time enjoyable.
+assistant: I agree. It makes free time very enjoyable.
